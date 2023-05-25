@@ -11,7 +11,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.glfw.GLFW;
 
-public class KeyWizard implements ClientModInitializer {
+public class ModernKeyWizard implements ClientModInitializer {
     public static final String MODID = "mkw";
     public static final Logger LOGGER = LogManager.getLogger(MODID);
     public static final Identifier SCREEN_TOGGLE_WIDGETS = new Identifier(MODID, "textures/gui/screen_toggle_widgets.png");

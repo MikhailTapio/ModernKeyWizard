@@ -53,11 +53,11 @@ public class CategorySelectorWidget extends PressableWidget implements TickableE
 
     @Override
     public void tick() {
-        this.setMessage(new TranslatableText(this.getSelctedCategory()));
+        this.setMessage(new TranslatableText(this.getSelectedCategory()));
         this.categoryList.visible = this.extended;
     }
 
-    public String getSelctedCategory() {
+    public String getSelectedCategory() {
         if (this.categoryList.getSelectedOrNull() == null) {
             return KeyBindingUtil.DYNAMIC_CATEGORY_ALL;
         }

@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "committee.nova.mkw.KeyWizard"
+      "committee.nova.mkw.ModernKeyWizard"
     ]
   },
   "mixins": [

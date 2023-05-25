@@ -2,7 +2,7 @@ package committee.nova.mkw.gui;
 
 import committee.nova.mkb.api.IKeyBinding;
 import committee.nova.mkb.keybinding.KeyModifier;
-import committee.nova.mkw.KeyWizard;
+import committee.nova.mkw.ModernKeyWizard;
 import committee.nova.mkw.util.KeyBindingUtil;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.Element;
@@ -39,7 +39,7 @@ public class KeyWizardScreen extends GameOptionsScreen {
 
     @SuppressWarnings("resource")
     public KeyWizardScreen(Screen parent) {
-        super(parent, MinecraftClient.getInstance().options, Text.of(KeyWizard.MODID));
+        super(parent, MinecraftClient.getInstance().options, Text.of(ModernKeyWizard.MODID));
     }
 
     @Override
@@ -68,7 +68,7 @@ public class KeyWizardScreen extends GameOptionsScreen {
         this.bindingList = new KeyBindingListWidget(this, 10, 10, bindingListWidth, this.height - 40, this.textRenderer.fontHeight * 3 + 10);
         this.keyboard = KeyboardWidgetBuilder.standardKeyboard(this, bindingListWidth + 15, this.height / 2.0F - 90.0F, this.width - (bindingListWidth + 15), 180);
         this.categorySelector = new CategorySelectorWidget(this, bindingListWidth + 15, 5, maxCategoryWidth + 20, 20);
-        this.screenToggleButton = new TexturedButtonWidget(this.width - 22, this.height - 22, 20, 20, 20, 0, 20, KeyWizard.SCREEN_TOGGLE_WIDGETS, 40, 40, (btn) -> this.client.setScreen(new ControlsOptionsScreen(this.parent, this.gameOptions)));
+        this.screenToggleButton = new TexturedButtonWidget(this.width - 22, this.height - 22, 20, 20, 20, 0, 20, ModernKeyWizard.SCREEN_TOGGLE_WIDGETS, 40, 40, (btn) -> this.client.setScreen(new ControlsOptionsScreen(this.parent, this.gameOptions)));
         this.searchBar = new TextFieldWidget(this.textRenderer, 10, this.height - 20, bindingListWidth, 14, Text.of(""));
         this.mouseButton = KeyboardWidgetBuilder.singleKeyKeyboard(this, mouseButtonX, mouseButtonY, mouseButtonWidth, mouseButtonHeight, mouseCodes[mouseCodeIndex], InputUtil.Type.MOUSE);
         this.mousePlus = new ButtonWidget((int) this.mouseButton.getAnchorX() + 83, (int) this.mouseButton.getAnchorY(), 25, 20, Text.of("+"), (btn) -> {
@@ -151,7 +151,7 @@ public class KeyWizardScreen extends GameOptionsScreen {
     }
 
     public String getSelectedCategory() {
-        return this.categorySelector.getSelctedCategory();
+        return this.categorySelector.getSelectedCategory();
     }
 
     public String getFilterText() {
