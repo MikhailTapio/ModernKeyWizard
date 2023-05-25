@@ -1,6 +1,6 @@
 {
   "key.categories.mkw.all": "所有按键绑定",
-  "key.categories.mkw.conflicts": "冲突",
+  "key.categories.mkw.conflicts": "冲突按键绑定",
   "key.categories.mkw.unbound": "未绑定",
   "key.categories.mkw.bindings": "按键精灵",
   "key.categories.mkw.ctrl": "修饰键：CTRL",
