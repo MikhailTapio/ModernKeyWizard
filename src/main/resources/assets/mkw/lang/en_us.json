@@ -1,0 +1,18 @@
+{
+  "key.categories.mkw.all": "All Bindings",
+  "key.categories.mkw.conflicts": "Conflicting",
+  "key.categories.mkw.unbound": "Unbound",
+  "key.categories.mkw.bindings": "Keyboard Wizard",
+  "key.categories.mkw.ctrl": "Modifier: CTRL",
+  "key.categories.mkw.alt": "Modifier: ALT",
+  "key.categories.mkw.shift": "Modifier: SHIFT",
+  "key.categories.mkw.no_modifier": "Modifier: NONE",
+  "gui.clear": "Clear",
+  "gui.confirm.resetAll": "Reset all keys?",
+  "key.mkw.openKeyWizard": "Open Key Wizard",
+  "key.mouse.4": "Mouse4",
+  "key.mouse.5": "Mouse5",
+  "key.mouse.6": "Mouse6",
+  "key.mouse.7": "Mouse7",
+  "key.mouse.8": "Mouse8"
+}
