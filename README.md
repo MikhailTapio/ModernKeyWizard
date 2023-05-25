@@ -18,6 +18,8 @@ The binding list can be filtered by typing binding names in the search bar below
 
 # License
 Modern KeyWizard is under [GNU-AGPL-3.0-only](https://www.gnu.org/licenses/agpl-3.0.html).
+
+It's upstream project KeyboardWizard is under [MIT](licenses/LICENSE.old).
   
 # ATTENTION
 You **DEFINITELY CAN** add the mod to your modpack.
