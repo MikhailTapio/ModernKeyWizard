@@ -1,37 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "keywizard",
+  "id": "mkw",
   "version": "${version}",
-
-  "name": "Keyboard Wizard",
-  "description": "Keyboard Wizard is simple that makes finding and fixing key bind conflicts a lot easier",
+  "name": "Modern Keyboard Wizard",
+  "description": "Modern Keyboard Wizard is a Modern KeyBinding compatible fork of the original project",
   "authors": [
-    "MrNerdy42"
+    "MrNerdy42",
+    "Tapio"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/keyboard-wizard",
-    "sources": "https://github.com/MrNerdy42/keywizard-fabric"
+    "sources": "https://github.com/MikhailTapio/ModernKeyWizard"
   },
-
-  "license": "MIT",
-  "icon": "assets/modid/icon.png",
-
+  "license": "AGPL-3.0-only",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "mrnerdy42.keywizard.KeyWizard"
+      "committee.nova.mkw.ModernKeyWizard"
     ]
   },
   "mixins": [
-    "keywizard.mixins.json"
+    "mkw.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "1.16.x",
-    "java": ">=1.8",
-    "fabric-key-binding-api-v1": "*"
+    "minecraft": "1.16.x"
   },
   "suggests": {
     "another-mod": "*"
