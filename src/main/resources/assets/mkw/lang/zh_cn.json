@@ -1,0 +1,18 @@
+{
+  "key.categories.mkw.all": "所有按键绑定",
+  "key.categories.mkw.conflicts": "冲突按键绑定",
+  "key.categories.mkw.unbound": "未绑定",
+  "key.categories.mkw.bindings": "按键精灵",
+  "key.categories.mkw.ctrl": "修饰键：CTRL",
+  "key.categories.mkw.alt": "修饰键：ALT",
+  "key.categories.mkw.shift": "修饰键：SHIFT",
+  "key.categories.mkw.no_modifier": "修饰键：NONE",
+  "gui.clear": "清除",
+  "gui.confirm.resetAll": "确认重置全部按键绑定？",
+  "key.mkw.openKeyWizard": "打开按键精灵",
+  "key.mouse.4": "Mouse4",
+  "key.mouse.5": "Mouse5",
+  "key.mouse.6": "Mouse6",
+  "key.mouse.7": "Mouse7",
+  "key.mouse.8": "Mouse8"
+}

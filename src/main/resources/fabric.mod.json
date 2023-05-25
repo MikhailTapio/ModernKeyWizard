@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mkw",
+  "version": "${version}",
+  "name": "Modern Keyboard Wizard",
+  "description": "Keyboard Wizard is simple that makes finding and fixing key bind conflicts a lot easier",
+  "authors": [
+    "MrNerdy42",
+    "Tapio"
+  ],
+  "contact": {
+    "sources": "https://github.com/MikhailTapio/ModernKeyWizard"
+  },
+  "license": "AGPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "committee.nova.mkw.ModernKeyWizard"
+    ]
+  },
+  "mixins": [
+    "mkw.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
